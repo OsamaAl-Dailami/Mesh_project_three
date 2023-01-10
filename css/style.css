@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Cairo&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* Start Header */
+
+.header {
+    background-color: rgb(19, 18, 78);
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+
+.header a {
+    float: right;
+    margin-top: 5px;
+}
+
+
+/* End Header  */
+
+
+
+/* Start Navbar */
+
+/* End Navbar */
+
+
+
+/* Start Slider */
+
+.carousel-inner h5 {
+    padding: 0 30px;
+    font-size: 30px;
+    
+    /* background-color: rgba(61, 61, 134, 0.211);  */
+    /* display: inline-block;  */
+    border-radius: 20px;
+    
+
+}
+
+.carousel-inner p {
+    padding: 0 20px;
+    font-size: 25px;
+}
+
+.carousel-inner h5 {
+    padding: 0 30px;
+    font-size: 40px;
+}
+
+.carousel-inner  .carousel-caption{
+    z-index: 1;
+}
+
+#carouselExampleCaptions .carousel-indicators button {
+    height: 10px;
+    border-radius: 50px;
+
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.304);
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* End Slider */
+
+
+/* Start Features  */
+
+.features {
+    margin-top: 75px;
+}
+
+.features h2 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.features i {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 128, 255);
+    line-height: 100px;
+    color: white;
+    font-size: 40px;
+}
+
+.features h3 {
+    margin-top: 10px;
+}
+
+.features p {
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.768);
+}
+
+/* End Features  */
+
+/* Start Our Team  */
+.our-team {
+    background-color: #eee;
+    padding: 10px;
+    border-bottom: 3px solid rgb(82, 82, 241);
+    
+}
+.our-team .card {
+    
+    margin: auto;
+
+    
+}
+
+.our-team h2 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+/* End Our Team  */
+
+/* Start statistics  */
+.statistics {
+
+    min-height: 400px;
+    background-image: url(../images/slidimgs/1.jpg);
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin-top: 80px;
+    margin-left: auto;
+
+}
+
+.statistics .dverlay {
+    min-height: 400px;
+    padding-top: 130px;
+    background-color: rgba(0, 0, 0, 0.549);
+    width: 100%;
+    height: 100%;
+}
+
+.statistics .dverlay h3 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.statistics .dverlay p {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+/* End statistics  */
+
+
+/* Start Our Customars  */
+.our-customers {
+
+    background-color: #eee;
+    line-height: 200px;
+    border-bottom: 3px solid rgb(82, 82, 241);
+}
+
+.our-customers h2 {
+    margin-top: 100px;
+    padding-top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* End Our Customars  */
+
+/* Start Recnt News  */
+.recent-news h2 {
+    margin-top: 100px;
+    padding-top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.recent-news .card{
+    overflow: hidden;
+
+}
+
+.recent-news img{
+
+    transition: 1s ease;
+       
+}
+
+.recent-news img:hover{
+
+    transform: scale(1.1);
+    
+    
+}
+
+.recent-news .card-img-top{
+    height: 200px;
+    width: 100%;
+    margin: auto;
+}
+
+/* End Recnt News */
+
+
+/* Start Footer  */
+footer {
+    background-color: rgb(72, 72, 213);
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.7rem;
+    transition: 1s ease;
+
+}
+
+footer a:hover {
+    color: black;
+    
+
+
+}
+footer .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s ease;
+
+}
+
+footer .links a:hover {
+    color: black;
+    
+
+
+}
+
+
+footer ul li {
+    color: white;
+    list-style: none;
+    
+
+
+}
+
+
+.footer1 {
+    background-color: rgb(19, 18, 78);
+    color: white;
+    /* text-align: center; */
+    height: 50px;
+
+
+
+}
+
+.footer1 p {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+
+}
+
+.footer1 a {
+    color: white;
+
+}
+
+.footer1 a:hover {
+    color: black;
+
+}
+
+/* End Footer  */
+
+/* ---------------------------------------- Start Blog Page ------------------------------------------------ */
+/* ---------------------------------------- Start Blog Page ------------------------------------------------ */
+/* ---------------------------------------- Start Blog Page ------------------------------------------------ */
+
+.jumb {
+    margin: 15px;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.jumb .blog_info {
+    flex: 2;
+
+}
+
+.jumb .blog_image {
+    flex: 1;
+
+}
+
+
+/* ---------------------------------------- Start Details Blog Page ------------------------------------------------ */
+/* ---------------------------------------- Start Details Blog Page ------------------------------------------------ */
+/* ---------------------------------------- Start Details Blog Page ------------------------------------------------ */
+
+
+.blog_details p {
+    line-height: 2;
+    text-align: justify;
+}
+
+
+/* ---------------------------------------- Start courses Blog Page ------------------------------------------------ */
+/* ---------------------------------------- Start courses Blog Page ------------------------------------------------ */
+/* ---------------------------------------- Start courses Blog Page ------------------------------------------------ */
+
+.courses img:hover{
+
+    transform: scale(1.1);
+    
+}
+
+
+/* ---------------------------------------- Start courses Blog Page ------------------------------------------------ */
+/* ---------------------------------------- Start courses Blog Page ------------------------------------------------ */
+/* ---------------------------------------- Start courses Blog Page ------------------------------------------------ */
+
+.courses .card-img-top{
+    height: 200px;
+    width: 100%;
+    margin: auto;
+}
+
+.courses .card{
+    overflow: hidden;
+
+}
+
+.courses img{
+
+    transition: 1s ease;
+       
+}
+.courses a{
+
+    text-decoration: none;
+          
+}
+
+.courses a:hover{
+
+    text-decoration: underline;
+    
+       
+}
